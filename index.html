@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .border {
+            border-bottom-right-radius: 20rem;
+            background-color: blue;
+            overflow: hidden;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            border-bottom: solid;
+            border-top: solid;
+        }
+
+        .navbar {
+            margin-left: 23rem;
+            justify-content: center;
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            font-size: 25px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+            color: yellow;
+        }
+
+        .logo {
+            border: solid white;
+            text-align: center;
+            background-color: white;
+            color: blue;
+            padding: 18px;
+            max-width: 12rem;
+            border-radius: 40px;
+            font-size: 20px;
+        }
+        .logo:hover{
+            background-color: yellow;
+            border:yellow;
+        }
+        .highlight {
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            padding-bottom: 40px;
+        }
+
+        .market_img {
+            -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        }
+
+        .highlight_second {
+            position: relative;
+            padding-right: 5rem;
+        }
+
+        .highlight_second span {
+            position: absolute;
+            background-color: white;
+            color: blue;
+        }
+
+        .highlight_second_first {
+            font-size: 14px;
+            z-index: 2;
+            top: 8px;
+            padding: 5px 15px;
+            padding-right: 25px;
+            max-width: 10rem;
+            left: -43px;
+            border-radius: 3rem;
+        }
+
+        .highlight_second_second {
+            top: 48px;
+            font-size: 14px;
+            right: 35px;
+            z-index: 2;
+            padding: 5px 15px;
+            padding-right: 35px;
+            max-width: 10rem;
+            border-radius: 3rem;
+        }
+
+        .highlight_second_third {
+            font-size: 14px;
+            z-index: 2;
+            padding: 5px 15px;
+            padding-right: 35px;
+            max-width: 10rem;
+            border-radius: 3rem;
+            bottom: 20px;
+            z-index: 2;
+            left: -40px;
+        }
+
+        .highlight_first {
+            font-weight: bold;
+            font-size: 30px;
+            max-width: 25rem;
+            text-align: center;
+            margin: auto -40px;
+        }
+
+        .background {
+            color: aqua;
+        }
+
+        .welcome_pic {
+            width: 30rem;
+            border-top-right-radius: 258rem;
+            border-bottom-right-radius: 28rem;
+            border-top-left-radius: 258rem;
+            border-bottom-left-radius: 28rem;
+        }
+
+        .welcome {
+            display: flex;
+            justify-content: space-around;
+            padding: 6rem;
+        }
+        .welcome-first{
+            padding-left: 3rem;
+        }
+        .welcome-second {
+            width: 30rem;
+            display: block;
+            margin: auto;
+            padding-left: 10rem;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+            background-color: blue;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .footer-image {
+            background-color: white;
+        }
+        .footer-second{
+            display: block;
+            margin: auto 0px;
+        }
+        .end {
+            text-align: center;
+            padding: 2rem;
+            padding-left: 15rem;
+            padding-right: 15rem;
+            background-color: black;
+            color: wheat;
+            font-weight: bold;
+        }
+        .copyright{
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="border">
+
+        <head>
+            <div class="top">
+                <p class="logo">Ani's Marketing</p>
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+            </div>
+
+        </head>
+        <main>
+            <div class="highlight">
+                <p class="highlight_first">SEO & DIGITAL MARKETIAN AGENCY</p>
+
+                <div class="highlight_second">
+                    <span class="highlight_second_first">
+                        <h2>20+</h1> Year Experience
+                    </span>
+                    <span class="highlight_second_second">
+                        <h2>10+</h2> Awords wins
+                    </span>
+                    <span class="highlight_second_third">
+                        <h2>2.8k</h2> Satisfied Client
+                    </span>
+                    <img class="market_img" src="market.jpg" alt="market">
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <body>
+        <div class="welcome">
+            <div class="welcome-first">
+                <img src="welcome seo.jpg" alt="" class="welcome_pic">
+            </div>
+            <div class="welcome-second" id="about">
+                <h2>
+                    Welcome to our Seo Company
+                </h2>
+                <p>
+                    SEO, or search engine optimization, is crucial for increasing your visibility and helping potential
+                    customers find your business. But this process is also a complicated one, made up of many moving
+                    parts and requires a certain amount of specialist knowledge.
+                </p>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer">
+            <div class="footer-second">
+                <img src="img-kolkata.png" alt="img kolkata" class="footer-image">
+                <h2>
+                    Kolkata Office
+                </h2>
+                <p>
+                    1 no,Bose Lane.Kolkata-700054
+                </p>
+            </div>
+            <div class="footer-second">
+                <img src="communicate.png" alt="img kolkata" class="footer-image" id="contact">
+                <h2>
+                    +912345237831
+                </h2>
+                <p>
+                    seomarketani@gmail.com
+                </p>
+            </div>
+        </div>
+        <div class="end">
+            <div class="copyright">
+                Privacy Policy | Terms and Conditions
+            </div>
+            <hr>
+            <div class="copyright">
+                © 2023 Digital Googly. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
